@@ -1,6 +1,6 @@
 /**
  * TypeScript Analyzer MCP Server - Enterprise Edition
- * 
+ *  
  * A high-performance, production-grade MCP server for analyzing and fixing TypeScript 'any' types.
  * Built with extensive error handling, caching, and intelligent type inference.
  */
