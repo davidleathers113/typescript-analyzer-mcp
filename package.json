@@ -1,0 +1,30 @@
+{
+  "name": "typescript-analyzer-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for analyzing and fixing TypeScript 'any' types",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "analyzer",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "author": "David Leathers",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "typescript": "^5.8.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/pino": "^7.0.4"
+  }
+}
